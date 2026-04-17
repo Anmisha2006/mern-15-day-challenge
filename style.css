@@ -1,0 +1,77 @@
+ body { margin: 10px; font-family: Arial, sans-serif; }
+  #header {
+    background-color: lightblue; 
+    height: 150px; 
+    text-align: center;
+    border: 2px solid blue;
+    margin-bottom: 5px;
+    border-radius: 15px 0px 15px 0px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZnQEnFkUNCz9mzVAUzTgKZ4H3IunV1jAduA&s); 
+    background-size: cover;    
+    background-position: center;
+    /* Vertically center the text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #main {
+    background-color: pink;
+    min-height: 600px;
+    border: 2px lightpink;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    display: flex; 
+    overflow: hidden; /* Keeps corners rounded */
+  }
+  #mleft {
+justify-content: center
+    background-color: ligheyellow;
+    flex: 1; /* Takes up space */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Moves form to the left */
+  }
+
+ #mright {
+  background-color: #EAE6BC;
+  flex: 1;
+  padding: 20px;
+  /* Add these lines below */
+  text-align: justify;       /* Makes the text edges straight on both sides */
+  line-height: 1.6;          /* Adds space between lines for readability */
+  word-wrap: break-word;     /* Prevents long words from breaking the layout */
+}
+
+
+#footer {
+  background-color: lightgreen;
+  height: 150px;
+  text-align: center;
+  border: 2px solid green;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  /* Add these two lines */
+  clear: both; 
+  width: 100%; 
+}
+  table { 
+    background-color: lightblue; 
+    border-collapse: collapse; 
+    width: 100%;
+    max-width: 500px; /* Prevents table from getting too wide */
+    border: 1px solid #555;
+  }
+  
+  td { padding: 8px; border: 1px solid #888; }
+  
+  /* Style for inputs to look modern */
+  input[type="text"], input[type="password"], input[type="email"], textarea, select {
+    width: 90%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }

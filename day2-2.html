@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+<title>division example</title>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div id="header">
+  <h1>header division</h1>
+</div>
+
+<div id="main">
+  <div id="mleft">
+    <h2 style="color: white; margin-top: 0;">Registration Form</h2>
+    <form>
+      <table>
+        <tr>
+          <td><label for="user_field">username:</label></td>
+          <td><input type="text" id="user_field" name="username" autofocus></td>
+        </tr>
+        <tr>
+          <td><label for="pwd">Password: </label></td>
+          <td><input type="password" name="Password" id="pwd"></td>
+        </tr>
+        <tr>
+          <td><label>Email: </label></td>
+          <td><input type="email" name="Email"></td>
+        </tr>
+        <tr>
+          <td><label>phno.</label></td>
+          <td><input type="tel" name="phno."></td>
+        </tr>
+        <tr>
+          <td><label>Address: </label></td> 
+          <td><textarea id="Address" name="Address" rows="3"></textarea></td>
+        </tr>
+        <tr>
+          <td><label>gender: </label></td>
+          <td>
+            <input type="radio" id="male" name="gender" value="male"><label for="male">male</label>
+            <input type="radio" id="female" name="gender" value="female"><label for="female">female</label>
+          </td>
+        </tr>
+        <tr>
+          <td><label>courses:</label></td>
+          <td>
+            <input type="checkbox" id="dbms" name="courses"><label>DBMS</label>
+            <input type="checkbox" id="os" name="courses"><label>OS</label>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="branch">Branch</label></td>
+          <td>
+            <select id="branch" name="branch">
+              <option value="cse">CSE</option>
+              <option value="ece">ECE</option>
+              <option value="eee">EEE</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center;">
+            <input type="submit" value="Submit" style="background-color: green; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+          </td>
+        </tr>
+      </table>
+    </form>
+  </div>
+
+<div id="mright">
+  <marquee style="background: #293e40; color: white; padding: 5px; border-radius: 5px;" scrollamount="7">
+    Next Exam Cycle Starts Soon! | Register on Webassessor | Passing score is typically 70%
+  </marquee>
+
+  <h2 style="margin-top: 15px;">ServiceNow Certification Exam</h2>
+
+  <div style="float: right; width: 120px; height: 120px; background-color: #81b5a1; margin: 10px; border-radius: 10px; display: flex; align-items: center; text-align: center; font-size: 12px; padding: 5px; color: white; font-weight: bold;">
+    Certified System Admin (CSA)
+  </div>
+
+  <p>
+    The <b>ServiceNow Certified System Administrator (CSA)</b> exam establishes the core skills required to manage, configure, and implement the ServiceNow platform.
+  </p>
+
+  <h3 style="clear: left;">Exam Key Details:</h3>
+  <ul style="list-style-type: square;">
+    <li><b>Format:</b> 60 Questions (Multiple Choice)</li>
+    <li><b>Duration:</b> 90 Minutes</li>
+    <li><b>Registration:</b> Via the <b>Webassessor</b> portal.</li>
+    <li><b>Prerequisite:</b> ServiceNow Fundamentals course is highly recommended.</li>
+  </ul>
+
+  <p>
+    Candidates are tested on User Interface & Navigation, Collaboration, Database Administration, and Self-Service applications.
+  </p>
+</div>
+
+</div> </div> <div id="footer">
+  <h3>footer body</h3>
+</div>
+
+</body>
+</html>
